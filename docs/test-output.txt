@@ -1,0 +1,23 @@
+npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm.
+
+> smart-traffic-backend@1.0.0 test
+> vitest run
+
+
+ RUN  v3.2.7 <project>/backend
+
+ ✓ tests/alu.test.js (7 tests) 10ms
+ ✓ tests/memory.test.js (4 tests) 15ms
+ ✓ tests/interrupt.test.js (1 test) 11ms
+ ✓ tests/instruction_and_cpu.test.js (4 tests) 21ms
+ ✓ tests/traffic_integration.test.js (4 tests) 28ms
+ ✓ tests/api_validation.test.js (12 tests) 103ms
+ ✓ tests/regressions.test.js (34 tests) 169ms
+ ✓ tests/registers.test.js (4 tests) 5ms
+ ✓ tests/api_and_db.test.js (7 tests) 67ms
+
+ Test Files  9 passed (9)
+      Tests  77 passed (77)
+   Start at  18:46:30
+   Duration  1.01s (transform 418ms, setup 0ms, collect 1.55s, tests 428ms, environment 3ms, prepare 1.21s)
+

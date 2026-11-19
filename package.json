@@ -1,0 +1,28 @@
+{
+  "name": "smart-traffic-virtual-cpu-root",
+  "version": "1.0.0",
+  "description": "Smart Traffic Signal Controller Using an Instruction-Level Virtual CPU",
+  "private": true,
+  "scripts": {
+    "install:backend": "npm --prefix backend ci",
+    "install:frontend": "npm --prefix frontend ci",
+    "install:all": "npm run install:backend && npm run install:frontend",
+    "test": "npm --prefix backend test",
+    "start:backend": "npm --prefix backend start",
+    "start:frontend": "npm --prefix frontend run dev",
+    "build:frontend": "npm --prefix frontend run build"
+  },
+  "keywords": [
+    "virtual-cpu",
+    "computer-organization-and-architecture",
+    "coa",
+    "traffic-simulation",
+    "assembler",
+    "datapath"
+  ],
+  "author": "COA Engineering Team",
+  "license": "MIT",
+  "engines": {
+    "node": ">=24"
+  }
+}
